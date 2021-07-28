@@ -1,0 +1,246 @@
+header, main, nav, footer, figure, figcaption, aside, section, article{
+	display: block;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Garamond, serif;
+}
+table{
+	border-style: solid;
+	border-color: #330000;
+	border-width: 6px;
+	border-collapse: collapse;
+}
+th{
+	padding: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: 330000;
+}
+td{
+	padding: 0.5em;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #330000;
+}
+tr:nth-of-type(odd) {
+	background-color: #dccec0;
+}
+label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 125px;
+	padding-right: 2em;
+}
+input{
+	display: block;
+	margin-bottom: 20px;
+}
+textarea{
+	display: block;
+	margin-bottom: 20px;
+}
+button a{
+	margin-left: 135px;
+}
+#wrapper{
+	margin:auto;
+	width: 100%;
+	border-style: none;
+	border-width: 1.5pt;
+	border-color: #003300;
+	background-color: none;
+	min-width: 900px;
+	background-image:#58be25;
+}
+#home{
+	margin-left: 170px;
+	height: 400px;
+	background-image: url("hummusPlate.jpg");
+	background-size: 80% 100%;
+	background-repeat: no-repeat;
+}
+#poach{
+	margin-left: 170px;
+	height: 300px;
+	background-image: url("poached_egg.jpg");
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+}
+#sear{
+	margin-left: 170px;
+	height: 300px;
+	background-image: url("Seared_steak.jpg");
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+}
+#sautee{
+  margin-left: 170px;
+	height: 300px;
+	background-image: url("sautee.jpg");
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+}
+#braise{
+	margin-left: 170px;
+	height: 300px;
+	background-image: url("sautee.jpg");
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+}
+#intouch{
+	border-style: solid;
+	margin: auto;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+main{
+margin-left: 175px;
+margin-right: 120px;
+margin-bottom: 150px;
+font-size: 1.5em;
+}
+main ul{
+	list-style: circle;
+}
+header{
+	background-color: #0E3013;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 24px;
+	height: 150px;
+	padding-top: 15px;
+	padding-left: 3em;
+	max-width: 1477px
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 2em;
+}
+nav{
+  background-color: #92817A;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 9em;
+}
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav a:hover{
+	color: #FFFFFF;
+	background-color: #330000;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media only screen and (max-width: 64em){
+	body{
+		margin: none;
+		background-color: #FFFFFF;
+	}
+	header{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 0;
+		height: auto;
+	}
+	h1{
+		letter-spacing: 0.1em;
+	}
+	main{
+		align-items: center;
+		margin: 15px;
+	}
+	nav{
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+	}
+	nav li{
+		display: inline;
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: .75em;
+		padding-right: .75em;
+	}
+	nav a{
+		border: solid 3px #330000;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	#wrapper{
+		min-width: 0;
+		width: auto;
+		box-shadow: none;
+		border: none;
+	}
+	#home{
+		height: 250px;
+		background-size: 80% 100%
+	}
+	#sear{
+		margin-left: 0;
+		height: 200px;
+	}
+	#poach{
+		margin-left: 0;
+		height: 200px;
+	}
+	#sautee{
+		margin-left: 0;
+		height: 200px;
+	}
+	#braise{
+		margin-left: 0;
+		height: 200px;
+	}
+@media only screen and (max-width:42em){
+	main{
+		padding-top: 0.1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 90%;
+	}
+	h1{
+		font-size: 2em;
+	}
+	nav{
+		padding: 0;
+	}
+	nav li{
+		display: block;
+		margin: 0;
+	}
+	nav a{
+		display: block;
+		border: solid 3px #330000;
+	}
+	#home{
+	background-image: none;
+	height: 0;
+	}
+	#sear{
+		background-image: none;
+		height: 0;
+	}
+	#poach{
+		background-image: none;
+		height: 0;
+	}
+	#sautee{
+		background-image: none;
+		height: 0;
+	}
+	#braise{
+		background-image: none;
+		height: 0;
+	}
+}
