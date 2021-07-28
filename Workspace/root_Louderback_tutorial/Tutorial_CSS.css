@@ -17,7 +17,7 @@ th{
 	padding: 0.5em;
 	border-style: solid;
 	border-width: 3px;
-	border-color: 330000;
+	border-color: #330000;
 }
 td{
 	padding: 0.5em;
@@ -52,9 +52,7 @@ button a{
 	border-style: none;
 	border-width: 1.5pt;
 	border-color: #003300;
-	background-color: none;
 	min-width: 900px;
-	background-image:#58be25;
 }
 #home{
 	margin-left: 170px;
@@ -142,7 +140,7 @@ nav a:hover{
 
 @media only screen and (max-width: 64em){
 	body{
-		margin: none;
+		margin: auto;
 		background-color: #FFFFFF;
 	}
 	header{
