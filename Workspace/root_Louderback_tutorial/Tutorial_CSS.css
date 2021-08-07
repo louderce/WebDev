@@ -1,4 +1,4 @@
-header, main, nav, footer, figure, figcaption, aside, section, article{
+eader, main, nav, footer, figure, figcaption, aside, section, article{
 	display: block;
 }
 *{
@@ -64,28 +64,24 @@ button a{
 #poach{
 	margin-left: 170px;
 	height: 300px;
-	background-image: url("poached_egg.jpg");
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
 }
 #sear{
 	margin-left: 170px;
 	height: 300px;
-	background-image: url("Seared_steak.jpg");
 	background-size: 40% 100%;
 	background-repeat: no-repeat;
 }
 #sautee{
   margin-left: 170px;
 	height: 300px;
-	background-image: url("sautee.jpg");
 	background-size: 30% 100%;
 	background-repeat: no-repeat;
 }
 #braise{
 	margin-left: 170px;
 	height: 300px;
-	background-image: url("braise.PNG");
 	background-size: 30% 100%;
 	background-repeat: no-repeat;
 }
@@ -95,26 +91,23 @@ button a{
 	padding-left: 30px;
 	padding-top: 30px;
 }
-#tadka{
+.tadka{
 	margin-left: auto;
-	height: 400px;
-	background-image: url("dalTadka.png");
-	background-size: 400px 100%;
-	background-repeat: no-repeat;
+	width: 100%;
+	max-width:400px;
+	height:auto;
 }
-#savory{
+.savory{
 	margin-left: auto;
-	height: 400px;
-	background-image: url("elevatedGrilledSausage.jpeg");
-	background-size: 400px 100%;
-	background-repeat: no-repeat;
+	width: 100%;
+	max-width:400px;
+	height:auto;
 }
-#ohsheglows{
+.ohsheglows{
 	margin-left: auto;
-	height: 400px;
-	background-image: url("ohsheglows.png");
-	background-size: 400px 100%;
-	background-repeat: no-repeat;
+	width: 100%;
+	max-width:400px;
+	height:auto;
 }
 main{
 margin-left: 190px;
